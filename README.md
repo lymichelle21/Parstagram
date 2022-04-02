@@ -24,6 +24,8 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://media.giphy.com/media/FwFpZ5iLnru2BgORwy/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+<img src='https://media.giphy.com/media/Y1hZ2iAGofStOwyTav/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 <img src='https://media.giphy.com/media/g1drzgBaMYK0sCNRit/giphy.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
