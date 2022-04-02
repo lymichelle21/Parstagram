@@ -16,26 +16,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="instagram_logo" translatesAutoresizingMaskIntoConstraints="NO" id="fDd-MG-HS2">
-                                <rect key="frame" x="84" y="154" width="255" height="108"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="insta_camera_btn" translatesAutoresizingMaskIntoConstraints="NO" id="raA-da-Pec">
-                                <rect key="frame" x="140" y="320" width="143" height="125"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="insta_camera_btn" translatesAutoresizingMaskIntoConstraints="NO" id="FTE-Kk-Gc4">
+                                <rect key="frame" x="169" y="323" width="76" height="182"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="raA-da-Pec" secondAttribute="height" multiplier="143:125" id="TaM-ov-6ET"/>
+                                    <constraint firstAttribute="width" secondItem="FTE-Kk-Gc4" secondAttribute="height" multiplier="38:91" id="X2N-gD-7OD"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="raA-da-Pec" secondAttribute="bottom" constant="417" id="5f0-uD-hM7"/>
-                            <constraint firstItem="raA-da-Pec" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="140" id="GTP-Cq-qRa"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="raA-da-Pec" secondAttribute="trailing" constant="131" id="I4w-Zu-f06"/>
-                            <constraint firstItem="raA-da-Pec" firstAttribute="top" secondItem="fDd-MG-HS2" secondAttribute="bottom" constant="58" id="YQG-m5-n9I"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fDd-MG-HS2" secondAttribute="trailing" constant="75" id="acq-j6-zoA"/>
-                            <constraint firstItem="fDd-MG-HS2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="84" id="uaE-Vo-2eQ"/>
-                            <constraint firstItem="fDd-MG-HS2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="110" id="wze-Pv-nWo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FTE-Kk-Gc4" secondAttribute="trailing" constant="169" id="Btb-WL-Nh0"/>
+                            <constraint firstItem="FTE-Kk-Gc4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="169" id="VNL-KC-mBR"/>
+                            <constraint firstItem="FTE-Kk-Gc4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="279" id="dDc-V8-pGN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FTE-Kk-Gc4" secondAttribute="bottom" constant="357" id="eH3-KV-MEB"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -46,7 +40,6 @@
     </scenes>
     <resources>
         <image name="insta_camera_btn" width="25" height="25"/>
-        <image name="instagram_logo" width="255" height="108"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
